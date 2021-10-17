@@ -1,0 +1,145 @@
+@media (min-width:1400px) and (max-width:1920px) {
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}}
+/* header */
+body {
+	font-family: 'Open Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.contenedor {
+	width: 97%;
+	margin: 0 auto;
+}
+.header {
+    background-color: #FBFBFB;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+.imglogo {
+    margin-top: 15px;
+}
+.header-menu ul li {
+	display: inline;
+}
+.header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-menu ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #747474;
+	padding-left: 14px;
+}
+/*main pagina contacto*/
+.home-contacto {
+    background-image: url(./img/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 96px;
+}
+.home-contacto h1 {
+    text-align: center;
+    color: white;
+    height: 66px;
+    padding-top: 30px;
+    background-color: rgba(44,62,80,0.50);
+}
+.informacion {
+    margin-top: 5px;
+}
+.informacion h2 {
+    color: #9A9A9A;
+    text-align: left;
+}
+.informacion p {
+    color: #9A9A9A;
+    margin: 0%;
+}
+.informacion span{
+    color: #9A9A9A;
+}
+.informacion ul li {
+    list-style: none;
+    color: #9A9A9A;
+}
+.informacion article {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 48.3px;
+    margin-left: 48.3px;
+    width: 350px;
+    height: 250px;
+}
+.informacion textarea {
+    padding: 10px;
+    width: 278px;
+    height: 70px;
+}
+.formulario {
+    width: 292px;
+}
+.buttom {
+    text-decoration: none;
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+    color: #9A9A9A;
+}
+.informacion-2 {
+    color: #9A9A9A;
+    margin-left: 48.3px;
+    margin-right: 48.3px;
+}
+.hr {
+    margin-top: 0;
+    margin-bottom: 20px;
+    float: left;
+    width: 50px;
+}
+
+/*footer*/
+footer{
+	background-color: #817F7F;
+	width: 100%;
+}
+.footer{
+	font-size: 25px;
+	color: white;
+	margin: 2vh;
+}
+.footer h3 {
+    padding-left: 15px;
+}
+.contenido-descargas{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contenido-descargas p{
+	color: white;
+	margin: 0 2vh 2vh 2vh;
+}
+.footer2{
+	background-color: #969696;
+    display: grid;
+}
+.contenido-footer2{
+	color: white;
+	margin-left: 10px;
+	margin-top: 10px;
+    margin-right: 10px;
+    float: left;
+}
+.contenido-footer2-r {
+	color: white;
+    float: right;
+    margin-top: 30px;
+}
